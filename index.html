@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Show/Hide Element Example</title>
+  <style>
+
+    .hidden-element {
+      display: none;
+    }
+
+
+    .hidden-element:target {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <h1>Show/Hide Element Example</h1>
+  <a href="#show-element">Show Element</a>
+  <div id="show-element" class="hidden-element">
+    <p>This is the hidden element. It will be shown when the link above is clicked.</p>
+  </div>
+</body>
+</html>
